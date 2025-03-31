@@ -48,7 +48,11 @@ with multiple lines.
         ></textarea>
         <label for="preview">Previewer</label>
         <textarea id="preview" value={marked(text)}></textarea>
+        <footer>
+        <p>Designed and Coded by <strong>Sina Kiamehr</strong></p>
+      </footer>
       </div>
+      
     </div>
   );
 }

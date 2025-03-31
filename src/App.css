@@ -10,24 +10,25 @@
   color: white;
 }
 
-#editor {
+#editor, #preview {
   white-space: pre-wrap;
   word-break: break-word;
   overflow: auto;            /* horizontal scroll if too long */
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 4px;
+  margin: 10px; 
+}
+
+#editor {
   width: 40vw;
   height: 30vh;
 }
 #preview {
-  white-space: pre-wrap;
-  word-break: break-word;
-  overflow: auto;            /* horizontal scroll if too long */
-  background-color: #f4f4f4;
-  padding: 10px;
-  border-radius: 4px;
   width: 50vw;
   height: 30vh;
 }
 
+footer {
+  font-size: 20px;
+}
